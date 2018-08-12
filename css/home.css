@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+p {
+  /* background-color: black; */
+}
+
+
+.headerContainer {
+  /* background-color: white; */
+  /* position: relative; */
+  /* width: 100vw; */
+  height: 15vh;
+  /* z-index: 2; */
+  /* margin-top: 5vw; */
+  /* padding-top: 5vh; */
+}
+
+.imgLanding {
+  position: absolute;
+  /* background-color: grey; */
+  /* width: 98.75vw; */
+  width: 100%;
+  height: 100vh;
+  /* z-index: 1; */
+  /* background-image: url("/imgs/seattle.jpg"); */
+  /* background-image: url("../seattle.jpg"); */
+  background-image: url("../s-road.jpg");
+  /* Photo by zoe pappas from Pexels */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
+
+.landing-slideTwo {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+}
+
+.container {
+  /* background-color: grey; */
+  margin: 0 auto;
+  width: 80vw;
+  height: 15vh;
+  /* margin-top:3vh; */
+  /* padding-top: 5vh; */
+  display: flex;
+  align-items: center;
+  /* padding-top: 5vh; */
+  /* padding: 5vh; */
+  /* padding-left: 10vw; */
+}
+
+.menu {
+  display: inline;
+  /* padding-top: 40vh; */
+  /* padding: 20px; */
+  /* padding-right: 3vw; */
+  /* padding:1%; */
+  /* margin-top: 20px; */
+  /* margin-bottom: 5px; */
+  /* transition: background .2s ease-in; */
+  -moz-transition:color .4s ease-in;
+  -o-transition:color .4s ease-in;
+  /* -webkit-transition:color .4s ease-in; */
+  /* background-color: blue; */
+
+  /* background:#f5f5f5;padding:20px; */
+}
+
+/* .menu:hover {
+  background-color: #555353;
+} */
+
+.scrolling-menu {
+  display: inline;
+  width: 80%;
+  background-color: ;
+  /* padding-top: 25px; */
+
+}
+
+#contact {
+  float: right;
+}
+
+/* greyfade:hover {
+  transition: background .2s ease-in;
+} */
+
+.menu-container {
+  width: 85%;
+  height: 25%;
+  /* background-color: blue; */
+  float: right;
+}
+
+.name-container {
+  /* background-color: red; */
+  width: 15%;
+  height:25%;
+  /* padding: 5px; */
+}
+
+.active {
+  position: absolute;
+  /* top:45px; */
+  top:5.75vh;
+  left:155px;
+  /* background-color: green; */
+  /* margin-top: 10px; */
+}
+
+.submenu {
+  /* margin-top: 5px; */
+  padding: 15px;
+  -webkit-transition: background-color  1s;
+  /* padding-top:5px;
+  padding-bottom:5px; */
+  /* padding:100%; */
+}
+
+.submenu:hover {
+  /* background-color: grey; */
+  -webkit-transition: background-color  1s;
+  background:rgba(255,255,255,0.25)
+}
+
+.landing-div {
+  position: absolute;
+  height: 15vw;
+  width: 49vw;
+  /* background-color: blue; */
+  /* background-color: grey; */
+  opacity:.75;
+  left: 425px;
+  top: 215px;
+}
+
+.landing-message {
+  color: white;
+  font-weight: 300;
+  word-spacing: 5px;
+  letter-spacing: 24px;
+}
+
+.bottom-arrow {
+  position: absolute;
+  width:100px;
+  height: 100px;
+  /* background-color: green; */
+  bottom: 10px;
+  left: 675px;
+  /* left: 43%; */
+  padding: 5px;
+}
+
+.subtext {
+  color: white;
+  font-weight: 300;
+  padding-left: 75px;
+}
+
+.arrow-text {
+  font-weight: 300;
+  color: white;
+  /* position: absolute;
+  bottom: 40px;
+  left: 45px; */
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  color: white;
+}
+
+.personal {
+  /* width: 100vw; */
+  height: 50vh;
+  /* background-color: red; */
+  z-index: 5;
+  padding-top: 115vh;
+}
+
+
+
+.container-personal {
+  margin: 0 auto;
+  width: 70%;
+  height: 35vh;
+  /* background-color: white; */
+  /* background-color: grey; */
+}
+
+.img-div {
+  height: 100%;
+  width: 20vw;
+  /* background-color: blue; */
+  padding-left: 5vw;
+}
+
+.myimage {
+  border-radius: 100px;
+}
+
+.side-text {
+  float: right;
+  height: 250px;
+  width:550px;
+  padding-right: 25px;
+  /* margin-left: 400px; */
+}
+
+.blacksubtext {
+  color:black;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+.project-container {
+  height: 90vh;
+  background-color: #282828;
+}
+
+.title {
+  margin: 0 auto;
+  width: 80%;
+  /* background-color: blue; */
+  padding: 25px;
+  letter-spacing: 8px;
+}
+
+.text400 {
+  font-weight: 400 !important;
+
+}
+
+.gridcontainer {
+  margin: 0 auto;
+  width: 70%;
+  height: 80%;
+  /* background-color: white; */
+}
+
+.grid44Item {
+  width: 50%;
+  height:50%;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+  float: left;
+}
+
+.description {
+  margin: 0 auto;
+  width: 82%;
+  color: white;
+  /* background-color: green; */
+}
+
+.knowMore {
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+  color: #C7C7C7;
+}
+
+.leftmore {
+  padding-left: 95px;
+}
+
+.bottomButton {
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  /* background-color: blue; */
+  position: absolute;
+  left: 560px;
+  bottom: -1200px;
+}
+
+
+button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  width:300px;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.photo-container {
+  height: 100vh;
+  background-color: #0074D9;
+}
+
+.grid22Item {
+  width: 100%;
+  height: 50%;
+  margin-top: 150px;
+  background-color: #7FDBFF;
+}
+
+.bigText {
+  font-size: 64px;
+  color: white;
+  font-weight: 300;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fullheight{
+  height: 40vh;
+}
+
+.socialMediaDiv {
+  background-color: #282828;
+  height: 400px;
+}
+
+.socialMediaIcons{
+  width: 200px;
+  height: 100px;
+  /* background-color: white; */
+  margin: 0 auto;
+  padding-top: 100px;
+  /* padding-left: 25px; */
+}
+
+.socialText {
+  background-color: blue;
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+
+.fa {
+  padding: 20px;
+  /* font-size: 50px; */
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100px;
+}
+
+.fa-linkedin {
+  background: white ;
+  color: #282828;
+}
+.fa-youtube {
+  background: white ;
+  color: #282828;
+}
+.fa-github {
+  background: white ;
+  color: #282828;
+}
+
+
+footer {
+  height: 10vh;
+  /* width:  */
+  background-color: #191919;
+
+}
+
+
+
+
+
+
+
+
+/* holding space */
